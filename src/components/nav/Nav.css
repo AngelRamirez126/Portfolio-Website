@@ -33,3 +33,11 @@ nav a:hover {
 nav a.active {
     color: var(--color-bg-varient);
 }
+
+/* ========================== MEDIA QUERIES (SMALL DEVICES) ========================== */
+
+@media screen and (max-width: 600px) {
+    nav a {
+        padding: 1.7rem;
+    }
+}
