@@ -79,7 +79,7 @@ section > h2 {
 }
 
 a {
-    color: var(--color-bg-primary);
+    color: var(--color-font);
     transition: var(--transition);
 }
 
@@ -129,7 +129,7 @@ img {
 
 /* ========================== MEDIA QUERIES (SMALL DEVICES) ========================== */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }
