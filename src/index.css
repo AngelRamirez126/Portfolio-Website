@@ -71,7 +71,7 @@ section > h5 {
 }
 
 section > h2 {
-    color: var(--color-fontfont);
+    color: var(--color-font);
     margin-bottom: 3rem;
 }
 
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: var(--color-bg-varient);
     color: var(--color-bg);
     border-color: transparent;
 }
@@ -109,6 +109,13 @@ a:hover {
     background: var(--color-bg-varient);
     color: var(--color-bg);
 }
+
+.btn-primary:hover {
+    background: transparent;
+    color: var(--color-bg-varient);
+    border: 1px solid var(--color-bg-varient);
+}
+
 
 img {
     display: block;
